@@ -1,4 +1,4 @@
-hello-rust-sample project
+hello-cargo-sample project
 =========================
 
 Create Project
@@ -6,11 +6,11 @@ Create Project
 
 ..code-block:: bash
 
-  $ cargo new hello-rust-sample
-  Created binary (application) `hello-rust-sample` package
+  $ cargo new hello-cargo-sample
+  Created binary (application) `hello-cargo-sample` package
 
-  $ tree hello-rust-sample/
-  hello-rust-sample/
+  $ tree hello-cargo-sample/
+  hello-cargo-sample/
   |-- Cargo.toml
   `-- src
       `-- main.rs
@@ -22,8 +22,14 @@ Run sample
 
 ..code-block:: bash
 
-  $ tree hello-rust-sample/
-  hello-rust-sample/
+  $ cargo run
+    Compiling hello-cargo-sample v0.1.0 (/home/web/hello-rust/hello-cargo-sample)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.97s
+    Running `target/debug/hello-cargo-sample`
+    Hello, world!
+
+  $ tree hello-cargo-sample/
+  hello-cargo-sample/
   |-- Cargo.lock
   |-- Cargo.toml
   |-- src
@@ -32,20 +38,20 @@ Run sample
       `-- debug
           |-- build
           |-- deps
-          |   |-- hello_rust_sample-6c167dffc3a543e0
-          |   |-- hello_rust_sample-6c167dffc3a543e0.d
-          |   `-- hello_rust_sample-6c167dffc3a543e0.dSYM
+          |   |-- hello_cargo_sample-6c167dffc3a543e0
+          |   |-- hello_cargo_sample-6c167dffc3a543e0.d
+          |   `-- hello_cargo_sample-6c167dffc3a543e0.dSYM
           |       `-- Contents
           |           |-- Info.plist
           |           `-- Resources
           |               `-- DWARF
-          |                   `-- hello_rust_sample-6c167dffc3a543e0
+          |                   `-- hello_cargo_sample-6c167dffc3a543e0
           |-- examples
-          |-- hello-rust-sample
-          |-- hello-rust-sample.d
-          |-- hello-rust-sample.dSYM -> deps/hello_rust_sample-6c167dffc3a543e0.dSYM
+          |-- hello-cargo-sample
+          |-- hello-cargo-sample.d
+          |-- hello-cargo-sample.dSYM -> deps/hello_cargo_sample-6c167dffc3a543e0.dSYM
           |-- incremental
-          |   `-- hello_rust_sample-1zkx98zq36jse
+          |   `-- hello_cargo_sample-1zkx98zq36jse
           |       |-- s-fdwr59sf2i-ew6eu3-2x805mx5316mi
           |       |   |-- 1u4nqu3phub93x6v.o
           |       |   |-- 2zkqy7htxi7vnu9j.o

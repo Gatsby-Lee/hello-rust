@@ -1,5 +1,5 @@
 [package]
-name = "hello-rust-sample"
+name = "hello-cargo-sample"
 version = "0.1.0"
 authors = ["Gatsby Lee <thewayofthinking@gmail.com>"]
 edition = "2018"
