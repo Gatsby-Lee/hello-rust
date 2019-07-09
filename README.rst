@@ -36,7 +36,7 @@ hello-rust-sample project
 Create Project
 ^^^^^^^^^^^^^^
 
-..code-block:: bash
+.. code-block:: bash
 
   $ cargo new hello-rust-sample
   Created binary (application) `hello-rust-sample` package
@@ -51,7 +51,7 @@ Create Project
 
 Run
 
-..code-block:: bash
+.. code-block:: bash
 
   $ tree hello-rust-sample/
   hello-rust-sample/
