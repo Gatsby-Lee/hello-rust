@@ -21,6 +21,12 @@ Install Rust on Mac
 
   curl https://sh.rustup.rs -sSf | sh
 
+  rustup show
+  Default host: x86_64-apple-darwin
+
+  stable-x86_64-apple-darwin (default)
+  rustc 1.36.0 (a53f9df32 2019-07-03)
+
 
 Open Local Documentation
 ------------------------

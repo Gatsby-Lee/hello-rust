@@ -16,6 +16,16 @@ Create Project
       `-- main.rs
   1 directory, 2 files
 
+  $ cat Cargo.toml
+  [package]
+  name = "hello-cargo-sample"
+  version = "0.1.0"
+  authors = ["Test <test@gmail.com>"]
+  edition = "2018"
+
+  # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+  [dependencies]
+
 
 Run sample
 ----------
