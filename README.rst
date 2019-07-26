@@ -17,7 +17,7 @@ References
 Install Rust on Mac
 -------------------
 
-..code-block:: bash
+.. code-block:: bash
 
   curl https://sh.rustup.rs -sSf | sh
 
@@ -28,10 +28,10 @@ Install Rust on Mac
   rustc 1.36.0 (a53f9df32 2019-07-03)
 
 
-Open Local Documentation
+Rust Local Documentation
 ------------------------
 
-..code-blci:: bash
+.. code-block:: bash
 
   rustup doc
 
@@ -97,3 +97,11 @@ Run
           `-- native
 
   15 directories, 19 files
+
+
+Build Local dependencies Documentation
+--------------------------------------
+
+.. code-block:: bash
+
+  cargo doc --open
